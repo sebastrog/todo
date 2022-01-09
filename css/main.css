@@ -1,3 +1,34 @@
 body {
-    background-color: white
+    font-family: 'Montserrat', sans-serif;
+    background-color:#F67A7A;
 }
+
+main {
+    display: flexbox;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+.contenedor {
+    box-shadow: 1px 1px 1px 1px gray;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.encabezado {
+    box-shadow: 1px 1px 1px 0px gray;
+    background-color: #E6EFEE;
+    border-radius: 1rem;
+}
+
+.tareas {
+
+}
+
+.botonAgregar {
+
+}
+
