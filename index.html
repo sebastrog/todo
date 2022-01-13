@@ -5,24 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Don Mao</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">    
     <link rel="preload" href="css/main.css" as="style">
     <link href="css/main.css" rel="stylesheet">
+    
+
 
 </head>
 <body>
 
     <main class="contenedor">
 
-        <h1 class="encabezado">TODO</h1>
-       
-        <div class="tareas">
-            <input type="text" placeholder="Escribe tu nueva tarea y agrégala!">
-            <input type="submit" value="AGREGAR" class="botonAgregar">
+        <div class="encabezado">
+            <div>
+                <h1>TODO</h1>
+                <p class="fecha">7 Enero 2022</p>  
+            </div>
+
+            <p class="cantidadTareas">3 Task</p>
+
         </div>
+        
+        <div class="contenedorTareas">
+            <div class="tareas">
+                <input type="text" placeholder="Escribe tu nueva tarea y agrégala!" class="inputTarea">
+                <input type="submit" value="AGREGAR" class="botonAgregar">
+            </div>
             
+            <ul class="lista">tareas sin completar y finalizadas</ul>
+        </div>
+    
     </main>
  
 

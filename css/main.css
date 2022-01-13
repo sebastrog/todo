@@ -1,34 +1,80 @@
+
+html {
+    font-size: 62.5%; /*para hacer 1rem=10px*/
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color:#F67A7A;
+    font-size: 16px; /*para hacer 1rem=10px*/
 }
 
 main {
-    display: flexbox;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
     color: blue;
+    margin:0;
+        
 }
 
 .contenedor {
-    box-shadow: 1px 1px 1px 1px gray;
     background-color: white;
     border-radius: 1rem;
+    width: 93rem;
+    margin: 6rem auto 3rem auto;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.4);
+    
 }
 
-.encabezado {
-    box-shadow: 1px 1px 1px 0px gray;
-    background-color: #E6EFEE;
-    border-radius: 1rem;
+.encabezado  {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 0px 1px rgb(255, 252, 252);
+    background-color: #e8f0ef;
+    border-radius:1rem;
+    padding: 4rem 5rem;
+
+}
+ 
+.fecha {
+    margin: 0;
+}
+
+.cantidadTareas {
+
 }
 
 .tareas {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    
+}
 
+.inputTarea {
+    width: 100%;
+    border-style:none;
+    padding: 0;
 }
 
 .botonAgregar {
+    
 
 }
 
+.botonAgregar:hover {
+    cursor: pointer;
+}
+
+.contenedorTareas {
+    padding: 4rem 5rem;
+}
+
+.lista {
+    margin: 0;
+    padding: 0;
+}
