@@ -20,7 +20,14 @@ h1 {
 
 li {
     list-style-type: none;
+    
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 
 
 .contenedor {
@@ -61,7 +68,7 @@ li {
     justify-content: space-between;
     border-bottom: 1.2px solid #E8E8E8;
     padding-bottom: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .inputTarea {
@@ -91,6 +98,8 @@ li {
     cursor: pointer;
 }
 
+
+
 .botonEliminar {
     display: flex;
     justify-content: space-evenly;
@@ -102,6 +111,7 @@ li {
     padding: 1rem;
     border: none;
     font-size: 90%;
+   
 }
 
 .botonEliminar:hover {
@@ -125,42 +135,42 @@ li {
     cursor: pointer;
 }
 
+
 .contenedorTareas {
     padding: 4rem 5rem;
     padding-top: 6rem;
 }
 
 .lista {
-    margin: 0;
-    padding: 0;
-    
-}
-
-.tareaPuesta {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
+    align-items: center;
     border-bottom: 1.2px solid #E8E8E8;
-    padding-bottom: 1rem;
-    margin-top: 2rem;
-
-}
-
-.textoLi {
-   width: 42%;
-   font-weight: 400;
-   color: rgb(39, 38, 38);
-
-}
-
-.botonesLi {
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-   
+    padding: 1rem 0;
+    color: rgb(39, 38, 38);
+    line-height:1rem;
     
 }
 
-.regarJardin {
+.listaBotones {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    width: 40%;
+  
+}
+
+.lista span {
     text-decoration-line: line-through;
 }
+
+.listaTexto {
+    width: 55%;
+    line-height: 2rem;
+
+}
+
+
+
+
 
