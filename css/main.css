@@ -156,8 +156,7 @@ ul {
     display: flex;
     justify-content: end;
     gap: 2rem;
-    width: 40%;
-  
+      
 }
 
 .lista span {
